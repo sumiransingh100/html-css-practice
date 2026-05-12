@@ -1,0 +1,40 @@
+body{
+    margin: 1;
+}
+#main{
+    display: flex;
+}
+#main .left{
+    height: 50rem;
+    background-color: #FBC50B;
+    width: 60%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    padding: 2%;
+}
+#main .right{
+    height: 50rem;
+    background-color: #FBE8B5;
+    width: 40%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding: 2%;
+    display: flex;
+    justify-content: right;
+}
+#main .right a i{
+    color: black;
+    font-size: 2em;
+}
+#main .right #main_cartoon{
+    height: 53rem;
+    position: absolute;
+    right: 8rem;
+}
+#main .right #pokiball{
+    height: 17rem;
+    position: absolute;
+    top: 35rem;
+    right: 52rem;
+    opacity: 0.3;
+}
